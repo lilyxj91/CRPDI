@@ -257,6 +257,9 @@ comp_pdi <- function(mdat, pdat, zcov, tau, n_l){
 #' @param zcov covariates used in the FG model
 #'
 #' @return
+#' @import survival
+#' @import cmprsk
+#' @import caret
 #' @export
 #'
 fine_gray_pdi <- function( dat, tau, n_l, seed, cv_rep, zcov){
