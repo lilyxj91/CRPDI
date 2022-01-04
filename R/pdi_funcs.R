@@ -260,6 +260,7 @@ comp_pdi <- function(mdat, pdat, zcov, tau, n_l){
 #' @import survival
 #' @import cmprsk
 #' @import caret
+#' @importFrom caret createFolds
 #' @export
 #'
 fine_gray_pdi <- function( dat, tau, n_l, seed, cv_rep, zcov){
