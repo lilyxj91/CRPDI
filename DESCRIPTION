@@ -1,0 +1,23 @@
+Package: CRPDI
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person("Ding", "Maomao",  role = "aut"),
+    person("Li", "Ruosha",  role = "aut"),
+    person("Ning", "Jing",  role = "aut"),
+    person("Jiang", "X", email = "jiangjiang9102@outlook.com" , role="cre")
+    )
+Maintainer: Jiang X <jiangjiang9102@outlook.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    caret,
+    cmprsk,
+    survival
+RoxygenNote: 7.1.2.9000
